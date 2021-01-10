@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Binus EzyFood</string>
+    <string name="more">Order More</string>
+
+    <string name="topup">Top Up</string>
+    <string name="logo">Logo</string>
+    <string name="myorder">My Order</string>
+    <string-array name="options">
+        <item>Drinks</item>
+        <item>Food</item>
+        <item>Snacks</item>
+        <item>TopUp</item>
+    </string-array>
+</resources>
