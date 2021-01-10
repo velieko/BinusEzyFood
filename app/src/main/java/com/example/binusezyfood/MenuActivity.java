@@ -57,6 +57,12 @@ public class MenuActivity extends Activity implements View.OnClickListener {
                             intent.putExtra("balance", balance);
                             startActivity(intent);
                         }
+                        if (position == 4) {
+                            Intent intent = new Intent(MenuActivity.this,
+                                    MapsActivity.class);
+                            intent.putExtra("balance", balance);
+                            startActivity(intent);
+                        }
                     }
                 };
         //Add the listener to the list view
